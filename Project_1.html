@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Projrct 1</title>
+	<style>
+		body{
+			background-color: rgb(26, 2, 41);
+
+			text-align: center;
+			color: wheat;
+		}
+		h1{
+			font-size: xx-large;
+			font-style: italic;
+			
+		}
+		p{
+			text-decoration: solid;
+			font-size: large;
+			
+		}
+		.main{
+			display: flex;
+			justify-content: center;
+			justify-items: center;
+		}
+		.sub1{
+			background-color: rgb(228, 24, 160);
+			color: yellow;
+			margin-top: 100px;
+			padding: 50px 50px ;
+			margin-left: 400px ;
+		font-size: x-large;
+			width: 600px;
+			height: 150px;
+				
+		}
+		.sub2{
+			background-color: rgb(216, 142, 191);
+			margin-top: 100px;
+			padding: 50px 50px ;
+			margin-left: 400px ;
+			color: rgb(51, 5, 5);
+			width: 600px;
+			height: 150px;
+		}
+		#b1{
+			padding: 10px 10px ;
+			width: 400px;
+			height: 50px;
+			text-align: center;
+			font-size: larger;
+			background-color: rgb(13, 2, 44);
+			color: rgb(17, 194, 70);
+		}
+		#result{
+			font-size: 40px;
+			text-align: center;
+			color: rgb(1 19 33);
+		}
+		
+	</style>
+</head>
+<body>
+	<h1>Button Using JS .......</h1>
+<p>
+	Hey , everyone I am starting to learning js so, in this project using button in onclick event .
+</p>	
+
+<div class="sub1">
+	<h3>Using Me  For See result !!</h3>
+	<button type="button" id="b1" onclick="myfunction()">Click Me</button>
+	
+</div>
+<div class="sub2">
+	<h1>Waits for Output ....</h1>
+	<p id="result"></p>
+</div>
+
+
+<script >
+	function myfunction(){
+	 document.getElementById("result").innerHTML=" Successfully Button click ('-') , Thank you .......";
+
+}
+
+</script>
+</body>
+</html>
